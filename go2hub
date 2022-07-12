@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Scripthub", "Sentinel")
+
+local Tab = Window:NewTab("Arsernal")
+
+local ArsernalSection = Tab:NewSection("Scripts")
+
+ArsernalSection:NewButton("Unnamed esp", "Loads Unnamed esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))();
+end)
+
+ArsernalSection:NewButton("Aimbot + esp", "Has Aimbot and Esp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Yd2vKxPv"))();
+end)
+
+ArsernalSection:NewButton("Kill all on e", "Kills all on E", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Randomguy24356/Kill-all-on-E/main/Arsernal?token=GHSAT0AAAAAABWOQ34TA5PBXEGWTF6SVHKKYWNJ6MQ"))();
+end)
+
+ArsernalSection:NewButton("Silent Aim", "Does not work with projectiles as well as knife", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/T97rTkBg', true))()
+end)
+
+
+local Tab = Window:NewTab("Roblox Bedwars")
+
+local BedwarSection = Tab:NewSection("Scripts")
+
+local Tab = Window:NewTab("Jailbreak")
+
+local JailbreakSection = Tab:NewSection("Scripts")
+
+local Tab = Window:NewTab("Prison life")
+
+local JailbreakSection = Tab:NewSection("Scripts")
+
+local Tab = Window:NewTab("Dahood")
+
+local JailbreakSection = Tab:NewSection("Scripts")
