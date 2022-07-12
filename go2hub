@@ -14,21 +14,37 @@ loadstring(game:HttpGet("https://pastebin.com/raw/Yd2vKxPv"))();
 end)
 
 ArsernalSection:NewButton("Kill all on e", "Kills all on E", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Randomguy24356/Kill-all-on-E/main/Arsernal?token=GHSAT0AAAAAABWOQ34TA5PBXEGWTF6SVHKKYWNJ6MQ"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Randomguy24356/Kill-all-players-on-E/main/Arsernal"))();
 end)
 
 ArsernalSection:NewButton("Silent Aim", "Does not work with projectiles as well as knife", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/T97rTkBg', true))()
 end)
 
-
 local Tab = Window:NewTab("Roblox Bedwars")
 
 local BedwarSection = Tab:NewSection("Scripts")
 
+BedwarSection:NewButton("Vape v4","Loads Vape v4 for roblox",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+BedwarSection:NewButton("rektsky","Loads Rektsky",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/8pmX8/rektsky4roblox/main/mainscript.lua", true))()
+end)
+
+BedwarSection:NewButton("Future","Loads Future Client",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
 local Tab = Window:NewTab("Jailbreak")
 
 local JailbreakSection = Tab:NewSection("Scripts")
+
+JailbreakSection:NewButton("Vynixius","Needs Key from disc server (discord.gg/vynixius)",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua", true))()
+end)
+
 
 local Tab = Window:NewTab("Prison life")
 
